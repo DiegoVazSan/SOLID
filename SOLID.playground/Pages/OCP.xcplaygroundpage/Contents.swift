@@ -19,12 +19,12 @@ class InvoiceBAD {
     }
 
     private func generatePDFReport() -> String {
-        // Generar informe en formato PDF
+        // Generate report in PDF format
         return "PDF Report"
     }
 
     private func generateHTMLReport() -> String {
-        // Generar informe en formato HTML
+        // Generate report in HTML format
         return "HTML Report"
     }
 }
@@ -37,14 +37,14 @@ protocol ReportGenerator {
 
 class PDFReportGenerator: ReportGenerator {
     func generateReport() -> String {
-        // Generar informe en formato PDF
+        // Generate report in PDF format
         return "PDF Report"
     }
 }
 
 class HTMLReportGenerator: ReportGenerator {
     func generateReport() -> String {
-        // Generar informe en formato HTML
+        // Generate report in HTML format
         return "HTML Report"
     }
 }
